@@ -1,0 +1,5 @@
+# Standard CPython packages for inference and report generation.
+# MSYS2 Python users should install the corresponding pacman packages instead.
+numpy==2.5.4
+scikit-learn==1.9.1
+matplotlib==3.11.2

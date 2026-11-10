@@ -1,0 +1,3 @@
+# Optional training dependencies for standard CPython / a supported JAX platform.
+-r requirements.txt
+jax==0.12.0.1

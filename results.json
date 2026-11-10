@@ -1,0 +1,1129 @@
+{
+  "generated_at_utc": "2026-11-10T02:19:04.460096+00:00",
+  "evaluation": "Saved model predictions compared with the saved Monte Carlo labels; not held-out test performance.",
+  "environment": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "artifact_sha256": {
+    "X_raw.npy": "61656e13ae6491cb47ab7ac2e770db087af123577eac5d4f7c9743b3066c6631",
+    "y_raw.npy": "b5be7110c0583f05428d7b7fe1c5db834265ae272b123b120bcdcf7ed80fa571",
+    "model_theta.npy": "bbc145c50377a192f8c8c51ef5c4311ae931650149e2cf8c6e62957056c93616",
+    "model_mu.npy": "0e855d9e52b467d444427aa59860680cf5857c9278ddda42db5ac067bca19276",
+    "model_sigma.npy": "cc36e6fbfb83507efb287891d52939a3b9512812bfd44a09ec5e07cd878383b6"
+  },
+  "n_hands": 169,
+  "n_features": 4,
+  "n_polynomial_features": 14,
+  "mse": 3.5315423062752064e-05,
+  "mae_pp": 0.4408247323556957,
+  "rmse_pp": 0.5942678105261302,
+  "max_absolute_error_pp": 2.549016308712826,
+  "r_squared": 0.9965180421478081,
+  "groups": {
+    "pairs": {
+      "count": 13,
+      "mae_pp": 1.1923714036325357,
+      "max_absolute_error_pp": 2.549016308712826
+    },
+    "suited": {
+      "count": 78,
+      "mae_pp": 0.3621194389063457,
+      "max_absolute_error_pp": 1.265826435702233
+    },
+    "offsuit": {
+      "count": 78,
+      "mae_pp": 0.39427224725890564,
+      "max_absolute_error_pp": 1.268769578407991
+    }
+  },
+  "hands": [
+    {
+      "hand": "22",
+      "monte_carlo_equity": 0.5026100277900696,
+      "model_equity": 0.5281001908771978,
+      "residual_pp": 2.549016308712826
+    },
+    {
+      "hand": "32s",
+      "monte_carlo_equity": 0.3611299991607666,
+      "model_equity": 0.36517173401436187,
+      "residual_pp": 0.4041734853595269
+    },
+    {
+      "hand": "32o",
+      "monte_carlo_equity": 0.32170000672340393,
+      "model_equity": 0.32596099650266536,
+      "residual_pp": 0.4260989779261426
+    },
+    {
+      "hand": "33",
+      "monte_carlo_equity": 0.5360999703407288,
+      "model_equity": 0.5497200250700641,
+      "residual_pp": 1.3620054729335362
+    },
+    {
+      "hand": "42s",
+      "monte_carlo_equity": 0.3704499900341034,
+      "model_equity": 0.3638008643363615,
+      "residual_pp": -0.6649125697741898
+    },
+    {
+      "hand": "42o",
+      "monte_carlo_equity": 0.3314499855041504,
+      "model_equity": 0.32574751894864545,
+      "residual_pp": -0.5702466555504937
+    },
+    {
+      "hand": "43s",
+      "monte_carlo_equity": 0.3862200081348419,
+      "model_equity": 0.38648480248877143,
+      "residual_pp": 0.026479435392950945
+    },
+    {
+      "hand": "43o",
+      "monte_carlo_equity": 0.3521899878978729,
+      "model_equity": 0.3492014538051392,
+      "residual_pp": -0.2988534092733752
+    },
+    {
+      "hand": "44",
+      "monte_carlo_equity": 0.5707799792289734,
+      "model_equity": 0.5726573235815272,
+      "residual_pp": 0.18773443525538225
+    },
+    {
+      "hand": "52s",
+      "monte_carlo_equity": 0.3746199905872345,
+      "model_equity": 0.36658461844905943,
+      "residual_pp": -0.8035372138175068
+    },
+    {
+      "hand": "52o",
+      "monte_carlo_equity": 0.3421899974346161,
+      "model_equity": 0.329688665344168,
+      "residual_pp": -1.250133209044807
+    },
+    {
+      "hand": "53s",
+      "monte_carlo_equity": 0.39675000309944153,
+      "model_equity": 0.38739082543787173,
+      "residual_pp": -0.9359177661569795
+    },
+    {
+      "hand": "53o",
+      "monte_carlo_equity": 0.361270010471344,
+      "model_equity": 0.35126486903706416,
+      "residual_pp": -1.000514143427983
+    },
+    {
+      "hand": "54s",
+      "monte_carlo_equity": 0.41808998584747314,
+      "model_equity": 0.4091153144110746,
+      "residual_pp": -0.8974671436398518
+    },
+    {
+      "hand": "54o",
+      "monte_carlo_equity": 0.37891000509262085,
+      "model_equity": 0.37375935479179884,
+      "residual_pp": -0.5150650300822013
+    },
+    {
+      "hand": "55",
+      "monte_carlo_equity": 0.6053900122642517,
+      "model_equity": 0.5969120571683295,
+      "residual_pp": -0.8477955095922196
+    },
+    {
+      "hand": "62s",
+      "monte_carlo_equity": 0.37630999088287354,
+      "model_equity": 0.3735230148917223,
+      "residual_pp": -0.27869759911512415
+    },
+    {
+      "hand": "62o",
+      "monte_carlo_equity": 0.3394800126552582,
+      "model_equity": 0.337784454010089,
+      "residual_pp": -0.16955586451691818
+    },
+    {
+      "hand": "63s",
+      "monte_carlo_equity": 0.39500999450683594,
+      "model_equity": 0.3924514868334036,
+      "residual_pp": -0.2558507673432353
+    },
+    {
+      "hand": "63o",
+      "monte_carlo_equity": 0.36219000816345215,
+      "model_equity": 0.3574829226558541,
+      "residual_pp": -0.47070855075980744
+    },
+    {
+      "hand": "64s",
+      "monte_carlo_equity": 0.41185998916625977,
+      "model_equity": 0.41229824464300885,
+      "residual_pp": 0.043825547674908316
+    },
+    {
+      "hand": "64o",
+      "monte_carlo_equity": 0.38054999709129333,
+      "model_equity": 0.3780996772469912,
+      "residual_pp": -0.24503198443021623
+    },
+    {
+      "hand": "65s",
+      "monte_carlo_equity": 0.4332900047302246,
+      "model_equity": 0.433063275973866,
+      "residual_pp": -0.022672875635859624
+    },
+    {
+      "hand": "65o",
+      "monte_carlo_equity": 0.3955700099468231,
+      "model_equity": 0.399634705328401,
+      "residual_pp": 0.40646953815778875
+    },
+    {
+      "hand": "66",
+      "monte_carlo_equity": 0.6327199935913086,
+      "model_equity": 0.6224842407245975,
+      "residual_pp": -1.0235752866711079
+    },
+    {
+      "hand": "72s",
+      "monte_carlo_equity": 0.3845199942588806,
+      "model_equity": 0.38461604002531063,
+      "residual_pp": 0.00960457664300196
+    },
+    {
+      "hand": "72o",
+      "monte_carlo_equity": 0.34828001260757446,
+      "model_equity": 0.3500348713272244,
+      "residual_pp": 0.1754858719649921
+    },
+    {
+      "hand": "73s",
+      "monte_carlo_equity": 0.402319997549057,
+      "model_equity": 0.40166678080339435,
+      "residual_pp": -0.06532167456626548
+    },
+    {
+      "hand": "73o",
+      "monte_carlo_equity": 0.36513999104499817,
+      "model_equity": 0.3678556088093919,
+      "residual_pp": 0.27156177643937185
+    },
+    {
+      "hand": "74s",
+      "monte_carlo_equity": 0.4165300130844116,
+      "model_equity": 0.41963580356586855,
+      "residual_pp": 0.3105790481456927
+    },
+    {
+      "hand": "74o",
+      "monte_carlo_equity": 0.3864000141620636,
+      "model_equity": 0.3865946283533979,
+      "residual_pp": 0.019461419133431912
+    },
+    {
+      "hand": "75s",
+      "monte_carlo_equity": 0.43255001306533813,
+      "model_equity": 0.43852310373312814,
+      "residual_pp": 0.5973090667790004
+    },
+    {
+      "hand": "75o",
+      "monte_carlo_equity": 0.4072900116443634,
+      "model_equity": 0.4062519252712102,
+      "residual_pp": -0.10380863731532242
+    },
+    {
+      "hand": "76s",
+      "monte_carlo_equity": 0.45159998536109924,
+      "model_equity": 0.4583286777327357,
+      "residual_pp": 0.672869237163648
+    },
+    {
+      "hand": "76o",
+      "monte_carlo_equity": 0.42688000202178955,
+      "model_equity": 0.4268274960988185,
+      "residual_pp": -0.005250592297106893
+    },
+    {
+      "hand": "77",
+      "monte_carlo_equity": 0.6588799953460693,
+      "model_equity": 0.6493738703596793,
+      "residual_pp": -0.950612498639003
+    },
+    {
+      "hand": "82s",
+      "monte_carlo_equity": 0.4059700071811676,
+      "model_equity": 0.3998637049791838,
+      "residual_pp": -0.6106302201983826
+    },
+    {
+      "hand": "82o",
+      "monte_carlo_equity": 0.36654001474380493,
+      "model_equity": 0.3664399285639222,
+      "residual_pp": -0.010008617988271906
+    },
+    {
+      "hand": "83s",
+      "monte_carlo_equity": 0.4122599959373474,
+      "model_equity": 0.41503671459367,
+      "residual_pp": 0.2776718656322563
+    },
+    {
+      "hand": "83o",
+      "monte_carlo_equity": 0.3731600046157837,
+      "model_equity": 0.38238293488249214,
+      "residual_pp": 0.9222930266708451
+    },
+    {
+      "hand": "84s",
+      "monte_carlo_equity": 0.43046998977661133,
+      "model_equity": 0.43112800619254654,
+      "residual_pp": 0.06580164159352142
+    },
+    {
+      "hand": "84o",
+      "monte_carlo_equity": 0.3970800042152405,
+      "model_equity": 0.3992442232629006,
+      "residual_pp": 0.21642190476601209
+    },
+    {
+      "hand": "85s",
+      "monte_carlo_equity": 0.4490799903869629,
+      "model_equity": 0.44813757131267506,
+      "residual_pp": -0.09424190742878258
+    },
+    {
+      "hand": "85o",
+      "monte_carlo_equity": 0.4134399890899658,
+      "model_equity": 0.4170237851335818,
+      "residual_pp": 0.3583796043615972
+    },
+    {
+      "hand": "86s",
+      "monte_carlo_equity": 0.46123000979423523,
+      "model_equity": 0.4660654141486851,
+      "residual_pp": 0.4835404354449846
+    },
+    {
+      "hand": "86o",
+      "monte_carlo_equity": 0.4347800016403198,
+      "model_equity": 0.4357216247975925,
+      "residual_pp": 0.09416231572726974
+    },
+    {
+      "hand": "87s",
+      "monte_carlo_equity": 0.4798099994659424,
+      "model_equity": 0.48491153449947527,
+      "residual_pp": 0.5101535033532889
+    },
+    {
+      "hand": "87o",
+      "monte_carlo_equity": 0.4468599855899811,
+      "model_equity": 0.4553377419763835,
+      "residual_pp": 0.8477756386402413
+    },
+    {
+      "hand": "88",
+      "monte_carlo_equity": 0.6919800043106079,
+      "model_equity": 0.6775809508851465,
+      "residual_pp": -1.4399053425461439
+    },
+    {
+      "hand": "92s",
+      "monte_carlo_equity": 0.42243000864982605,
+      "model_equity": 0.4192660042184454,
+      "residual_pp": -0.31640044313806515
+    },
+    {
+      "hand": "92o",
+      "monte_carlo_equity": 0.38694000244140625,
+      "model_equity": 0.38699962008600847,
+      "residual_pp": 0.005961764460221675
+    },
+    {
+      "hand": "93s",
+      "monte_carlo_equity": 0.43490999937057495,
+      "model_equity": 0.4325612787858005,
+      "residual_pp": -0.23487205847744774
+    },
+    {
+      "hand": "93o",
+      "monte_carlo_equity": 0.4032999873161316,
+      "model_equity": 0.40106489135744733,
+      "residual_pp": -0.22350959586842634
+    },
+    {
+      "hand": "94s",
+      "monte_carlo_equity": 0.4388900101184845,
+      "model_equity": 0.44677483922107947,
+      "residual_pp": 0.788482910259497
+    },
+    {
+      "hand": "94o",
+      "monte_carlo_equity": 0.4099299907684326,
+      "model_equity": 0.4160484485742582,
+      "residual_pp": 0.6118457805825595
+    },
+    {
+      "hand": "95s",
+      "monte_carlo_equity": 0.46077999472618103,
+      "model_equity": 0.46190667317761047,
+      "residual_pp": 0.11266784514294415
+    },
+    {
+      "hand": "95o",
+      "monte_carlo_equity": 0.42805999517440796,
+      "model_equity": 0.43195027928134183,
+      "residual_pp": 0.3890284106933872
+    },
+    {
+      "hand": "96s",
+      "monte_carlo_equity": 0.4746299982070923,
+      "model_equity": 0.47795678290825616,
+      "residual_pp": 0.3326784701163876
+    },
+    {
+      "hand": "96o",
+      "monte_carlo_equity": 0.44628000259399414,
+      "model_equity": 0.44877038583998824,
+      "residual_pp": 0.2490383245994099
+    },
+    {
+      "hand": "97s",
+      "monte_carlo_equity": 0.49088001251220703,
+      "model_equity": 0.4949251713672862,
+      "residual_pp": 0.40451588550791673
+    },
+    {
+      "hand": "97o",
+      "monte_carlo_equity": 0.4643299877643585,
+      "model_equity": 0.4665087711270191,
+      "residual_pp": 0.21787833626605857
+    },
+    {
+      "hand": "98s",
+      "monte_carlo_equity": 0.5015199780464172,
+      "model_equity": 0.5128118369445908,
+      "residual_pp": 1.1291858898173524
+    },
+    {
+      "hand": "98o",
+      "monte_carlo_equity": 0.47995999455451965,
+      "model_equity": 0.48516543340840734,
+      "residual_pp": 0.520543885388769
+    },
+    {
+      "hand": "99",
+      "monte_carlo_equity": 0.7203199863433838,
+      "model_equity": 0.707105473261991,
+      "residual_pp": -1.3214513081392765
+    },
+    {
+      "hand": "T2s",
+      "monte_carlo_equity": 0.44905999302864075,
+      "model_equity": 0.4428229407190266,
+      "residual_pp": -0.6237052309614133
+    },
+    {
+      "hand": "T2o",
+      "monte_carlo_equity": 0.41675999760627747,
+      "model_equity": 0.41171394871057015,
+      "residual_pp": -0.5046048895707311
+    },
+    {
+      "hand": "T3s",
+      "monte_carlo_equity": 0.4516099989414215,
+      "model_equity": 0.4542404841227841,
+      "residual_pp": 0.26304851813626073
+    },
+    {
+      "hand": "T3o",
+      "monte_carlo_equity": 0.42778000235557556,
+      "model_equity": 0.42390148881841144,
+      "residual_pp": -0.3878513537164119
+    },
+    {
+      "hand": "T4s",
+      "monte_carlo_equity": 0.4664199948310852,
+      "model_equity": 0.46657630951093204,
+      "residual_pp": 0.015631467984683622
+    },
+    {
+      "hand": "T4o",
+      "monte_carlo_equity": 0.4378899931907654,
+      "model_equity": 0.43700731098809126,
+      "residual_pp": -0.08826822026741232
+    },
+    {
+      "hand": "T5s",
+      "monte_carlo_equity": 0.47551000118255615,
+      "model_equity": 0.4798304123038655,
+      "residual_pp": 0.432041112130932
+    },
+    {
+      "hand": "T5o",
+      "monte_carlo_equity": 0.4435099959373474,
+      "model_equity": 0.4510314105315773,
+      "residual_pp": 0.7521414594229892
+    },
+    {
+      "hand": "T6s",
+      "monte_carlo_equity": 0.48789000511169434,
+      "model_equity": 0.4940027899000302,
+      "residual_pp": 0.6112784788335879
+    },
+    {
+      "hand": "T6o",
+      "monte_carlo_equity": 0.45423001050949097,
+      "model_equity": 0.46597378495574276,
+      "residual_pp": 1.1743774446251798
+    },
+    {
+      "hand": "T7s",
+      "monte_carlo_equity": 0.5067300200462341,
+      "model_equity": 0.5090934459818585,
+      "residual_pp": 0.23634259356243303
+    },
+    {
+      "hand": "T7o",
+      "monte_carlo_equity": 0.4790099859237671,
+      "model_equity": 0.48183443786557184,
+      "residual_pp": 0.2824451941804751
+    },
+    {
+      "hand": "T8s",
+      "monte_carlo_equity": 0.5182600021362305,
+      "model_equity": 0.5251023786965195,
+      "residual_pp": 0.6842376560289076
+    },
+    {
+      "hand": "T8o",
+      "monte_carlo_equity": 0.49658000469207764,
+      "model_equity": 0.4986133672843166,
+      "residual_pp": 0.2033362592238963
+    },
+    {
+      "hand": "T9s",
+      "monte_carlo_equity": 0.5408099889755249,
+      "model_equity": 0.5420295859109476,
+      "residual_pp": 0.12195969354227287
+    },
+    {
+      "hand": "T9o",
+      "monte_carlo_equity": 0.5162400007247925,
+      "model_equity": 0.5163105714506624,
+      "residual_pp": 0.0070570725869911755
+    },
+    {
+      "hand": "TT",
+      "monte_carlo_equity": 0.749239981174469,
+      "model_equity": 0.7379474530526764,
+      "residual_pp": -1.12925281217926
+    },
+    {
+      "hand": "J2s",
+      "monte_carlo_equity": 0.47562000155448914,
+      "model_equity": 0.47053451330012314,
+      "residual_pp": -0.5085488254366
+    },
+    {
+      "hand": "J2o",
+      "monte_carlo_equity": 0.44481998682022095,
+      "model_equity": 0.4405829137333355,
+      "residual_pp": -0.42370730868854234
+    },
+    {
+      "hand": "J3s",
+      "monte_carlo_equity": 0.4800100028514862,
+      "model_equity": 0.48007432554028306,
+      "residual_pp": 0.006432268879685843
+    },
+    {
+      "hand": "J3o",
+      "monte_carlo_equity": 0.45396000146865845,
+      "model_equity": 0.45089272267757924,
+      "residual_pp": -0.3067278791079209
+    },
+    {
+      "hand": "J4s",
+      "monte_carlo_equity": 0.4879400134086609,
+      "model_equity": 0.4905324197648334,
+      "residual_pp": 0.25924063561725275
+    },
+    {
+      "hand": "J4o",
+      "monte_carlo_equity": 0.46055999398231506,
+      "model_equity": 0.4621208136836615,
+      "residual_pp": 0.15608197013464165
+    },
+    {
+      "hand": "J5s",
+      "monte_carlo_equity": 0.5019800066947937,
+      "model_equity": 0.5019087875106358,
+      "residual_pp": -0.007121918415786688
+    },
+    {
+      "hand": "J5o",
+      "monte_carlo_equity": 0.47029000520706177,
+      "model_equity": 0.47426717818001646,
+      "residual_pp": 0.397717297295469
+    },
+    {
+      "hand": "J6s",
+      "monte_carlo_equity": 0.5084800124168396,
+      "model_equity": 0.5142034329723195,
+      "residual_pp": 0.5723420555479919
+    },
+    {
+      "hand": "J6o",
+      "monte_carlo_equity": 0.47725000977516174,
+      "model_equity": 0.4873318204697009,
+      "residual_pp": 1.0081810694539173
+    },
+    {
+      "hand": "J7s",
+      "monte_carlo_equity": 0.5266299843788147,
+      "model_equity": 0.5274163559487836,
+      "residual_pp": 0.07863715699688578
+    },
+    {
+      "hand": "J7o",
+      "monte_carlo_equity": 0.4993700087070465,
+      "model_equity": 0.5013147402741658,
+      "residual_pp": 0.19447315671192733
+    },
+    {
+      "hand": "J8s",
+      "monte_carlo_equity": 0.5406399965286255,
+      "model_equity": 0.5415475565289636,
+      "residual_pp": 0.09075600003380924
+    },
+    {
+      "hand": "J8o",
+      "monte_carlo_equity": 0.517270028591156,
+      "model_equity": 0.5162159375584295,
+      "residual_pp": -0.10540910327264674
+    },
+    {
+      "hand": "J9s",
+      "monte_carlo_equity": 0.5592700242996216,
+      "model_equity": 0.5565970286962606,
+      "residual_pp": -0.26729956033609836
+    },
+    {
+      "hand": "J9o",
+      "monte_carlo_equity": 0.5370500087738037,
+      "model_equity": 0.5320354066776443,
+      "residual_pp": -0.5014602096159448
+    },
+    {
+      "hand": "JTs",
+      "monte_carlo_equity": 0.5769100189208984,
+      "model_equity": 0.5725647878813195,
+      "residual_pp": -0.4345231039578956
+    },
+    {
+      "hand": "JTo",
+      "monte_carlo_equity": 0.556190013885498,
+      "model_equity": 0.5487731623189529,
+      "residual_pp": -0.7416851566545146
+    },
+    {
+      "hand": "JJ",
+      "monte_carlo_equity": 0.7752500176429749,
+      "model_equity": 0.770106869621706,
+      "residual_pp": -0.5143148021268806
+    },
+    {
+      "hand": "Q2s",
+      "monte_carlo_equity": 0.50382000207901,
+      "model_equity": 0.5024007190757529,
+      "residual_pp": -0.14192830032571102
+    },
+    {
+      "hand": "Q2o",
+      "monte_carlo_equity": 0.473690003156662,
+      "model_equity": 0.4736065116329458,
+      "residual_pp": -0.008349152371617263
+    },
+    {
+      "hand": "Q3s",
+      "monte_carlo_equity": 0.511139988899231,
+      "model_equity": 0.5100627962687818,
+      "residual_pp": -0.10771926304491419
+    },
+    {
+      "hand": "Q3o",
+      "monte_carlo_equity": 0.4841200113296509,
+      "model_equity": 0.48203858553005846,
+      "residual_pp": -0.2081425799592418
+    },
+    {
+      "hand": "Q4s",
+      "monte_carlo_equity": 0.5186100006103516,
+      "model_equity": 0.5186431593297346,
+      "residual_pp": 0.003315871938303072
+    },
+    {
+      "hand": "Q4o",
+      "monte_carlo_equity": 0.49050000309944153,
+      "model_equity": 0.4913889453725431,
+      "residual_pp": 0.0888942273101545
+    },
+    {
+      "hand": "Q5s",
+      "monte_carlo_equity": 0.5279099941253662,
+      "model_equity": 0.5281417959119393,
+      "residual_pp": 0.02318017865731159
+    },
+    {
+      "hand": "Q5o",
+      "monte_carlo_equity": 0.49983999133110046,
+      "model_equity": 0.5016575787053005,
+      "residual_pp": 0.18175873742000137
+    },
+    {
+      "hand": "Q6s",
+      "monte_carlo_equity": 0.5367299914360046,
+      "model_equity": 0.5385587092391422,
+      "residual_pp": 0.18287178031375362
+    },
+    {
+      "hand": "Q6o",
+      "monte_carlo_equity": 0.5093600153923035,
+      "model_equity": 0.512844488860504,
+      "residual_pp": 0.34844734682005774
+    },
+    {
+      "hand": "Q7s",
+      "monte_carlo_equity": 0.5387700200080872,
+      "model_equity": 0.5498939000811253,
+      "residual_pp": 1.1123880073038106
+    },
+    {
+      "hand": "Q7o",
+      "monte_carlo_equity": 0.5163400173187256,
+      "model_equity": 0.524949676530488,
+      "residual_pp": 0.8609659211762377
+    },
+    {
+      "hand": "Q8s",
+      "monte_carlo_equity": 0.5576199889183044,
+      "model_equity": 0.562147367555941,
+      "residual_pp": 0.45273786376365255
+    },
+    {
+      "hand": "Q8o",
+      "monte_carlo_equity": 0.5366600155830383,
+      "model_equity": 0.5379731407093874,
+      "residual_pp": 0.13131251263490684
+    },
+    {
+      "hand": "Q9s",
+      "monte_carlo_equity": 0.5783900022506714,
+      "model_equity": 0.5753191085596404,
+      "residual_pp": -0.30708936910309736
+    },
+    {
+      "hand": "Q9o",
+      "monte_carlo_equity": 0.5540099740028381,
+      "model_equity": 0.5519148786650045,
+      "residual_pp": -0.20950953378335857
+    },
+    {
+      "hand": "QTs",
+      "monte_carlo_equity": 0.5960299968719482,
+      "model_equity": 0.5894091365811017,
+      "residual_pp": -0.662086029084652
+    },
+    {
+      "hand": "QTo",
+      "monte_carlo_equity": 0.5705699920654297,
+      "model_equity": 0.5667749031427156,
+      "residual_pp": -0.3795088922714074
+    },
+    {
+      "hand": "QJs",
+      "monte_carlo_equity": 0.6057900190353394,
+      "model_equity": 0.6044174268142309,
+      "residual_pp": -0.13725922211084152
+    },
+    {
+      "hand": "QJo",
+      "monte_carlo_equity": 0.5839099884033203,
+      "model_equity": 0.5825531903277625,
+      "residual_pp": -0.13567980755577747
+    },
+    {
+      "hand": "QQ",
+      "monte_carlo_equity": 0.7976599931716919,
+      "model_equity": 0.8035837372696278,
+      "residual_pp": 0.5923744097935946
+    },
+    {
+      "hand": "K2s",
+      "monte_carlo_equity": 0.5329999923706055,
+      "model_equity": 0.5384215668837605,
+      "residual_pp": 0.5421574513155059
+    },
+    {
+      "hand": "K2o",
+      "monte_carlo_equity": 0.5034400224685669,
+      "model_equity": 0.5107847515649337,
+      "residual_pp": 0.7344729096366853
+    },
+    {
+      "hand": "K3s",
+      "monte_carlo_equity": 0.542169988155365,
+      "model_equity": 0.5442059129131918,
+      "residual_pp": 0.2035924757826768
+    },
+    {
+      "hand": "K3o",
+      "monte_carlo_equity": 0.5132700204849243,
+      "model_equity": 0.5173390942984488,
+      "residual_pp": 0.4069073813524504
+    },
+    {
+      "hand": "K4s",
+      "monte_carlo_equity": 0.5513399839401245,
+      "model_equity": 0.5509085428687802,
+      "residual_pp": -0.04314410713442962
+    },
+    {
+      "hand": "K4o",
+      "monte_carlo_equity": 0.5195199847221375,
+      "model_equity": 0.5248117210355692,
+      "residual_pp": 0.5291736313431716
+    },
+    {
+      "hand": "K5s",
+      "monte_carlo_equity": 0.5572500228881836,
+      "model_equity": 0.5585294463456206,
+      "residual_pp": 0.12794234574370345
+    },
+    {
+      "hand": "K5o",
+      "monte_carlo_equity": 0.5300899744033813,
+      "model_equity": 0.5332026212629623,
+      "residual_pp": 0.3112646859580903
+    },
+    {
+      "hand": "K6s",
+      "monte_carlo_equity": 0.5640599727630615,
+      "model_equity": 0.5670686275383425,
+      "residual_pp": 0.30086547752810056
+    },
+    {
+      "hand": "K6o",
+      "monte_carlo_equity": 0.5393400192260742,
+      "model_equity": 0.5425117992836849,
+      "residual_pp": 0.31717800576106514
+    },
+    {
+      "hand": "K7s",
+      "monte_carlo_equity": 0.5745300054550171,
+      "model_equity": 0.5765260862458447,
+      "residual_pp": 0.19960807908275813
+    },
+    {
+      "hand": "K7o",
+      "monte_carlo_equity": 0.5555999875068665,
+      "model_equity": 0.5527392548191877,
+      "residual_pp": -0.2860732687678724
+    },
+    {
+      "hand": "K8s",
+      "monte_carlo_equity": 0.5815500020980835,
+      "model_equity": 0.5869018206152962,
+      "residual_pp": 0.535181851721267
+    },
+    {
+      "hand": "K8o",
+      "monte_carlo_equity": 0.5573999881744385,
+      "model_equity": 0.563884985892723,
+      "residual_pp": 0.648499771828448
+    },
+    {
+      "hand": "K9s",
+      "monte_carlo_equity": 0.6019499897956848,
+      "model_equity": 0.5981958304553979,
+      "residual_pp": -0.3754159340286889
+    },
+    {
+      "hand": "K9o",
+      "monte_carlo_equity": 0.58024001121521,
+      "model_equity": 0.5759489926847426,
+      "residual_pp": -0.42910185304673165
+    },
+    {
+      "hand": "KTs",
+      "monte_carlo_equity": 0.6187999844551086,
+      "model_equity": 0.6104081273132617,
+      "residual_pp": -0.8391857141846981
+    },
+    {
+      "hand": "KTo",
+      "monte_carlo_equity": 0.5940999984741211,
+      "model_equity": 0.5889312859988561,
+      "residual_pp": -0.5168712475264958
+    },
+    {
+      "hand": "KJs",
+      "monte_carlo_equity": 0.6272100210189819,
+      "model_equity": 0.6235386824992598,
+      "residual_pp": -0.36713385197221227
+    },
+    {
+      "hand": "KJo",
+      "monte_carlo_equity": 0.6070799827575684,
+      "model_equity": 0.602831838136772,
+      "residual_pp": -0.4248144620796368
+    },
+    {
+      "hand": "KQs",
+      "monte_carlo_equity": 0.6316400170326233,
+      "model_equity": 0.637587529566853,
+      "residual_pp": 0.594751253422976
+    },
+    {
+      "hand": "KQo",
+      "monte_carlo_equity": 0.6192100048065186,
+      "model_equity": 0.6176506821562832,
+      "residual_pp": -0.15593226502353952
+    },
+    {
+      "hand": "KK",
+      "monte_carlo_equity": 0.82464998960495,
+      "model_equity": 0.8383780568648138,
+      "residual_pp": 1.3728067259863863
+    },
+    {
+      "hand": "A2s",
+      "monte_carlo_equity": 0.5735599994659424,
+      "model_equity": 0.5785970427076056,
+      "residual_pp": 0.5037043241663208
+    },
+    {
+      "hand": "A2o",
+      "monte_carlo_equity": 0.5451899766921997,
+      "model_equity": 0.5521176201481363,
+      "residual_pp": 0.692764345593655
+    },
+    {
+      "hand": "A3s",
+      "monte_carlo_equity": 0.5785199999809265,
+      "model_equity": 0.5825036575734394,
+      "residual_pp": 0.3983657592512846
+    },
+    {
+      "hand": "A3o",
+      "monte_carlo_equity": 0.56045001745224,
+      "model_equity": 0.5567942317180538,
+      "residual_pp": -0.36557857341862343
+    },
+    {
+      "hand": "A4s",
+      "monte_carlo_equity": 0.5877199769020081,
+      "model_equity": 0.5873285544236635,
+      "residual_pp": -0.03914224783445608
+    },
+    {
+      "hand": "A4o",
+      "monte_carlo_equity": 0.5664899945259094,
+      "model_equity": 0.5623891253498098,
+      "residual_pp": -0.4100869176099642
+    },
+    {
+      "hand": "A5s",
+      "monte_carlo_equity": 0.5978500247001648,
+      "model_equity": 0.5930717247951397,
+      "residual_pp": -0.4778299905025096
+    },
+    {
+      "hand": "A5o",
+      "monte_carlo_equity": 0.5757499933242798,
+      "model_equity": 0.5689022924718384,
+      "residual_pp": -0.6847700852441352
+    },
+    {
+      "hand": "A6s",
+      "monte_carlo_equity": 0.5965200066566467,
+      "model_equity": 0.5997331728824972,
+      "residual_pp": 0.3213166225850439
+    },
+    {
+      "hand": "A6o",
+      "monte_carlo_equity": 0.5767999887466431,
+      "model_equity": 0.5763337373871967,
+      "residual_pp": -0.04662513594463347
+    },
+    {
+      "hand": "A7s",
+      "monte_carlo_equity": 0.608210027217865,
+      "model_equity": 0.6073128984846349,
+      "residual_pp": -0.08971287332301126
+    },
+    {
+      "hand": "A7o",
+      "monte_carlo_equity": 0.587909996509552,
+      "model_equity": 0.5846834598173353,
+      "residual_pp": -0.32265366922167305
+    },
+    {
+      "hand": "A8s",
+      "monte_carlo_equity": 0.6166200041770935,
+      "model_equity": 0.6158109016904888,
+      "residual_pp": -0.0809102486604707
+    },
+    {
+      "hand": "A8o",
+      "monte_carlo_equity": 0.5984299778938293,
+      "model_equity": 0.5939514597272729,
+      "residual_pp": -0.4478518166556422
+    },
+    {
+      "hand": "A9s",
+      "monte_carlo_equity": 0.6275699734687805,
+      "model_equity": 0.6252271764834596,
+      "residual_pp": -0.23427969853209163
+    },
+    {
+      "hand": "A9o",
+      "monte_carlo_equity": 0.6065300107002258,
+      "model_equity": 0.6041377314721615,
+      "residual_pp": -0.23922792280642868
+    },
+    {
+      "hand": "ATs",
+      "monte_carlo_equity": 0.6482200026512146,
+      "model_equity": 0.6355617382941923,
+      "residual_pp": -1.265826435702233
+    },
+    {
+      "hand": "ATo",
+      "monte_carlo_equity": 0.6279299855232239,
+      "model_equity": 0.615242289739144,
+      "residual_pp": -1.268769578407991
+    },
+    {
+      "hand": "AJs",
+      "monte_carlo_equity": 0.656470000743866,
+      "model_equity": 0.6468145662001262,
+      "residual_pp": -0.9655434543739738
+    },
+    {
+      "hand": "AJo",
+      "monte_carlo_equity": 0.6343899965286255,
+      "model_equity": 0.6272651145969957,
+      "residual_pp": -0.7124881931629745
+    },
+    {
+      "hand": "AQs",
+      "monte_carlo_equity": 0.6593499779701233,
+      "model_equity": 0.6589856704535216,
+      "residual_pp": -0.03643075166016585
+    },
+    {
+      "hand": "AQo",
+      "monte_carlo_equity": 0.6424800157546997,
+      "model_equity": 0.6402062158023089,
+      "residual_pp": -0.22737999523908536
+    },
+    {
+      "hand": "AKs",
+      "monte_carlo_equity": 0.6721699833869934,
+      "model_equity": 0.6720750629788007,
+      "residual_pp": -0.00949204081927002
+    },
+    {
+      "hand": "AKo",
+      "monte_carlo_equity": 0.6521499752998352,
+      "model_equity": 0.6540656047838377,
+      "residual_pp": 0.1915629484002479
+    },
+    {
+      "hand": "AA",
+      "monte_carlo_equity": 0.8523899912834167,
+      "model_equity": 0.8744898246298902,
+      "residual_pp": 2.2099833346473474
+    }
+  ],
+  "features": [
+    {
+      "name": "high_card",
+      "standardized_weight": -0.01972024142742157,
+      "mean_absolute_contribution": 0.016511093825101852
+    },
+    {
+      "name": "low_card",
+      "standardized_weight": 0.08184422552585602,
+      "mean_absolute_contribution": 0.06852546334266663
+    },
+    {
+      "name": "is_suited",
+      "standardized_weight": 0.009837312623858452,
+      "mean_absolute_contribution": 0.009808158501982689
+    },
+    {
+      "name": "is_pair",
+      "standardized_weight": 0.02713180147111416,
+      "mean_absolute_contribution": 0.014459588564932346
+    },
+    {
+      "name": "high_card^2",
+      "standardized_weight": 0.09452575445175171,
+      "mean_absolute_contribution": 0.08229458332061768
+    },
+    {
+      "name": "high_card low_card",
+      "standardized_weight": -0.06515488028526306,
+      "mean_absolute_contribution": 0.053176477551460266
+    },
+    {
+      "name": "high_card is_suited",
+      "standardized_weight": -0.005329926498234272,
+      "mean_absolute_contribution": 0.004918260499835014
+    },
+    {
+      "name": "high_card is_pair",
+      "standardized_weight": 0.0006250277510844171,
+      "mean_absolute_contribution": 0.00028119576745666564
+    },
+    {
+      "name": "low_card^2",
+      "standardized_weight": 0.01402711495757103,
+      "mean_absolute_contribution": 0.010791950859129429
+    },
+    {
+      "name": "low_card is_suited",
+      "standardized_weight": -0.00207898230291903,
+      "mean_absolute_contribution": 0.001657754764892161
+    },
+    {
+      "name": "low_card is_pair",
+      "standardized_weight": 0.0006259127985686064,
+      "mean_absolute_contribution": 0.00028159437351860106
+    },
+    {
+      "name": "is_suited^2",
+      "standardized_weight": 0.010286947712302208,
+      "mean_absolute_contribution": 0.010256466455757618
+    },
+    {
+      "name": "is_suited is_pair",
+      "standardized_weight": 0.0,
+      "mean_absolute_contribution": 0.0
+    },
+    {
+      "name": "is_pair^2",
+      "standardized_weight": 0.02556818351149559,
+      "mean_absolute_contribution": 0.013626251369714737
+    }
+  ]
+}

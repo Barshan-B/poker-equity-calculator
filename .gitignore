@@ -1,0 +1,34 @@
+# Local environments, caches, editor state, and verification scratch files
+.venv/
+venv/
+.scratch/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Build artifacts: rebuild the native engine from source
+*.dll
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+
+# Superseded local instructions; README.md is the public entry point
+README (3).md
+
+# Intentionally track the small .npy dataset/model snapshot and report PNGs.
